@@ -1,0 +1,53 @@
+body {
+    background-color: #00f0f0; /* Color de fondo similar al de la imagen */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    background-color: #ff9000; /* Fondo naranja del recuadro */
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    margin: 100px auto;
+    border: 5px solid black; /* Borde negro */
+}
+h1 {
+    font-size: 2em;
+    color: black;
+}
+p {
+    font-size: 1.2em;
+    color: black;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.age-button {
+    background-color: #00f0f0;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.age-button:hover {
+    background-color: #00c0c0; /* Color al pasar el ratón por encima */
+}
+.submit-button {
+    background-color: #ff4500; /* Color de fondo naranja */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 15px 30px; /* Espaciado interno */
+    font-size: 1.2em; /* Tamaño de la fuente */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.submit-button:hover {
+    background-color: #e03e00; /* Color al pasar el ratón por encima */
+}
