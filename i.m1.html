@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="i.m2_el_eclipse_solar.css">
+    <title>Cuestionario para Determinar las Inteligencias Múltiples</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario para Determinar las Inteligencias Múltiples</h1>
+        <form id="intelligencesForm">
+
+            <!-- Inteligencia Lingüística -->
+            <h2>Inteligencia Lingüística</h2>
+            <div class="question">
+                <p>1. ¿Disfrutas leer libros, artículos o cualquier tipo de lectura en tu tiempo libre?</p>
+                <input type="radio" name="linguistica1" value="1"> 1
+                <input type="radio" name="linguistica1" value="2"> 2
+                <input type="radio" name="linguistica1" value="3"> 3
+                <input type="radio" name="linguistica1" value="4"> 4
+                <input type="radio" name="linguistica1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Te resulta fácil expresar tus ideas de manera clara y efectiva tanto oral como escrita?</p>
+                <input type="radio" name="linguistica2" value="1"> 1
+                <input type="radio" name="linguistica2" value="2"> 2
+                <input type="radio" name="linguistica2" value="3"> 3
+                <input type="radio" name="linguistica2" value="4"> 4
+                <input type="radio" name="linguistica2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Tiendes a memorizar citas, frases o fragmentos de textos con facilidad?</p>
+                <input type="radio" name="linguistica3" value="1"> 1
+                <input type="radio" name="linguistica3" value="2"> 2
+                <input type="radio" name="linguistica3" value="3"> 3
+                <input type="radio" name="linguistica3" value="4"> 4
+                <input type="radio" name="linguistica3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Eres bueno/a en escribir historias, ensayos o artículos?</p>
+                <input type="radio" name="linguistica4" value="1"> 1
+                <input type="radio" name="linguistica4" value="2"> 2
+                <input type="radio" name="linguistica4" value="3"> 3
+                <input type="radio" name="linguistica4" value="4"> 4
+                <input type="radio" name="linguistica4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Sientes que puedes aprender nuevos idiomas con rapidez?</p>
+                <input type="radio" name="linguistica5" value="1"> 1
+                <input type="radio" name="linguistica5" value="2"> 2
+                <input type="radio" name="linguistica5" value="3"> 3
+                <input type="radio" name="linguistica5" value="4"> 4
+                <input type="radio" name="linguistica5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Lógico-Matemática -->
+            <h2>Inteligencia Lógico-Matemática</h2>
+            <div class="question">
+                <p>1. ¿Te gusta resolver acertijos o problemas matemáticos por diversión?</p>
+                <input type="radio" name="logica1" value="1"> 1
+                <input type="radio" name="logica1" value="2"> 2
+                <input type="radio" name="logica1" value="3"> 3
+                <input type="radio" name="logica1" value="4"> 4
+                <input type="radio" name="logica1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Te resulta fácil comprender patrones, secuencias o conceptos abstractos?</p>
+                <input type="radio" name="logica2" value="1"> 1
+                <input type="radio" name="logica2" value="2"> 2
+                <input type="radio" name="logica2" value="3"> 3
+                <input type="radio" name="logica2" value="4"> 4
+                <input type="radio" name="logica2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Disfrutas de las clases de ciencias o matemáticas en la escuela?</p>
+                <input type="radio" name="logica3" value="1"> 1
+                <input type="radio" name="logica3" value="2"> 2
+                <input type="radio" name="logica3" value="3"> 3
+                <input type="radio" name="logica3" value="4"> 4
+                <input type="radio" name="logica3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Tiendes a analizar situaciones de manera lógica antes de tomar una decisión?</p>
+                <input type="radio" name="logica4" value="1"> 1
+                <input type="radio" name="logica4" value="2"> 2
+                <input type="radio" name="logica4" value="3"> 3
+                <input type="radio" name="logica4" value="4"> 4
+                <input type="radio" name="logica4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Sientes que te desempeñas bien al programar o trabajar con tecnología?</p>
+                <input type="radio" name="logica5" value="1"> 1
+                <input type="radio" name="logica5" value="2"> 2
+                <input type="radio" name="logica5" value="3"> 3
+                <input type="radio" name="logica5" value="4"> 4
+                <input type="radio" name="logica5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Espacial -->
+            <h2>Inteligencia Espacial</h2>
+            <div class="question">
+                <p>1. ¿Te resulta sencillo imaginar objetos en diferentes ángulos o dimensiones?</p>
+                <input type="radio" name="espacial1" value="1"> 1
+                <input type="radio" name="espacial1" value="2"> 2
+                <input type="radio" name="espacial1" value="3"> 3
+                <input type="radio" name="espacial1" value="4"> 4
+                <input type="radio" name="espacial1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Eres bueno/a en armar rompecabezas o juegos que involucren orientación espacial?</p>
+                <input type="radio" name="espacial2" value="1"> 1
+                <input type="radio" name="espacial2" value="2"> 2
+                <input type="radio" name="espacial2" value="3"> 3
+                <input type="radio" name="espacial2" value="4"> 4
+                <input type="radio" name="espacial2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Tienes facilidad para leer mapas o instrucciones gráficas sin problema?</p>
+                <input type="radio" name="espacial3" value="1"> 1
+                <input type="radio" name="espacial3" value="2"> 2
+                <input type="radio" name="espacial3" value="3"> 3
+                <input type="radio" name="espacial3" value="4"> 4
+                <input type="radio" name="espacial3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Te gusta dibujar, diseñar o crear modelos visuales de tus ideas?</p>
+                <input type="radio" name="espacial4" value="1"> 1
+                <input type="radio" name="espacial4" value="2"> 2
+                <input type="radio" name="espacial4" value="3"> 3
+                <input type="radio" name="espacial4" value="4"> 4
+                <input type="radio" name="espacial4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Disfrutas de actividades que requieren una percepción visual, como la fotografía o la arquitectura?</p>
+                <input type="radio" name="espacial5" value="1"> 1
+                <input type="radio" name="espacial5" value="2"> 2
+                <input type="radio" name="espacial5" value="3"> 3
+                <input type="radio" name="espacial5" value="4"> 4
+                <input type="radio" name="espacial5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Musical -->
+            <h2>Inteligencia Musical</h2>
+            <div class="question">
+                <p>1. ¿Te resulta fácil identificar ritmos, tonos o melodías cuando escuchas música?</p>
+                <input type="radio" name="musical1" value="1"> 1
+                <input type="radio" name="musical1" value="2"> 2
+                <input type="radio" name="musical1" value="3"> 3
+                <input type="radio" name="musical1" value="4"> 4
+                <input type="radio" name="musical1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Disfrutas cantar, tocar un instrumento o componer música?</p>
+                <input type="radio" name="musical2" value="1"> 1
+                <input type="radio" name="musical2" value="2"> 2
+                <input type="radio" name="musical2" value="3"> 3
+                <input type="radio" name="musical2" value="4"> 4
+                <input type="radio" name="musical2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Tienes una sensibilidad especial hacia los sonidos de tu entorno, como el canto de los pájaros o el ruido de las olas?</p>
+                <input type="radio" name="musical3" value="1"> 1
+                <input type="radio" name="musical3" value="2"> 2
+                <input type="radio" name="musical3" value="3"> 3
+                <input type="radio" name="musical3" value="4"> 4
+                <input type="radio" name="musical3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Sueles recordar canciones o melodías con facilidad después de haberlas escuchado una vez?</p>
+                <input type="radio" name="musical4" value="1"> 1
+                <input type="radio" name="musical4" value="2"> 2
+                <input type="radio" name="musical4" value="3"> 3
+                <input type="radio" name="musical4" value="4"> 4
+                <input type="radio" name="musical4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Te gusta asistir a conciertos o actividades musicales?</p>
+                <input type="radio" name="musical5" value="1"> 1
+                <input type="radio" name="musical5" value="2"> 2
+                <input type="radio" name="musical5" value="3"> 3
+                <input type="radio" name="musical5" value="4"> 4
+                <input type="radio" name="musical5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Corporal-Cinestésica -->
+            <h2>Inteligencia Corporal-Cinestésica</h2>
+            <div class="question">
+                <p>1. ¿Te consideras una persona hábil físicamente en deportes, danza o manualidades?</p>
+                <input type="radio" name="corporal1" value="1"> 1
+                <input type="radio" name="corporal1" value="2"> 2
+                <input type="radio" name="corporal1" value="3"> 3
+                <input type="radio" name="corporal1" value="4"> 4
+                <input type="radio" name="corporal1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Sientes que aprendes mejor cuando puedes moverte o usar tus manos en actividades prácticas?</p>
+                <input type="radio" name="corporal2" value="1"> 1
+                <input type="radio" name="corporal2" value="2"> 2
+                <input type="radio" name="corporal2" value="3"> 3
+                <input type="radio" name="corporal2" value="4"> 4
+                <input type="radio" name="corporal2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Disfrutas de actividades que implican movimiento corporal, como el baile, la actuación o la gimnasia?</p>
+                <input type="radio" name="corporal3" value="1"> 1
+                <input type="radio" name="corporal3" value="2"> 2
+                <input type="radio" name="corporal3" value="3"> 3
+                <input type="radio" name="corporal3" value="4"> 4
+                <input type="radio" name="corporal3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Te resulta fácil coordinar tus movimientos en actividades físicas?</p>
+                <input type="radio" name="corporal4" value="1"> 1
+                <input type="radio" name="corporal4" value="2"> 2
+                <input type="radio" name="corporal4" value="3"> 3
+                <input type="radio" name="corporal4" value="4"> 4
+                <input type="radio" name="corporal4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Sientes que tu cuerpo es una herramienta para expresar ideas o emociones?</p>
+                <input type="radio" name="corporal5" value="1"> 1
+                <input type="radio" name="corporal5" value="2"> 2
+                <input type="radio" name="corporal5" value="3"> 3
+                <input type="radio" name="corporal5" value="4"> 4
+                <input type="radio" name="corporal5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Interpersonal -->
+            <h2>Inteligencia Interpersonal</h2>
+            <div class="question">
+                <p>1. ¿Te resulta fácil identificar los sentimientos o estados de ánimo de otras personas?</p>
+                <input type="radio" name="interpersonal1" value="1"> 1
+                <input type="radio" name="interpersonal1" value="2"> 2
+                <input type="radio" name="interpersonal1" value="3"> 3
+                <input type="radio" name="interpersonal1" value="4"> 4
+                <input type="radio" name="interpersonal1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Te consideras una persona que disfruta trabajar en equipo o colaborar con otros?</p>
+                <input type="radio" name="interpersonal2" value="1"> 1
+                <input type="radio" name="interpersonal2" value="2"> 2
+                <input type="radio" name="interpersonal2" value="3"> 3
+                <input type="radio" name="interpersonal2" value="4"> 4
+                <input type="radio" name="interpersonal2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Sueles actuar como mediador/a en situaciones de conflicto entre tus amigos o compañeros?</p>
+                <input type="radio" name="interpersonal3" value="1"> 1
+                <input type="radio" name="interpersonal3" value="2"> 2
+                <input type="radio" name="interpersonal3" value="3"> 3
+                <input type="radio" name="interpersonal3" value="4"> 4
+                <input type="radio" name="interpersonal3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Disfrutas interactuar con diferentes tipos de personas y entender sus puntos de vista?</p>
+                <input type="radio" name="interpersonal4" value="1"> 1
+                <input type="radio" name="interpersonal4" value="2"> 2
+                <input type="radio" name="interpersonal4" value="3"> 3
+                <input type="radio" name="interpersonal4" value="4"> 4
+                <input type="radio" name="interpersonal4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Te resulta fácil influir en los demás o persuadirlos en una conversación?</p>
+                <input type="radio" name="interpersonal5" value="1"> 1
+                <input type="radio" name="interpersonal5" value="2"> 2
+                <input type="radio" name="interpersonal5" value="3"> 3
+                <input type="radio" name="interpersonal5" value="4"> 4
+                <input type="radio" name="interpersonal5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Intrapersonal -->
+            <h2>Inteligencia Intrapersonal</h2>
+            <div class="question">
+                <p>1. ¿Eres consciente de tus fortalezas y debilidades personales?</p>
+                <input type="radio" name="intrapersonal1" value="1"> 1
+                <input type="radio" name="intrapersonal1" value="2"> 2
+                <input type="radio" name="intrapersonal1" value="3"> 3
+                <input type="radio" name="intrapersonal1" value="4"> 4
+                <input type="radio" name="intrapersonal1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Te gusta reflexionar sobre tus emociones y pensamientos?</p>
+                <input type="radio" name="intrapersonal2" value="1"> 1
+                <input type="radio" name="intrapersonal2" value="2"> 2
+                <input type="radio" name="intrapersonal2" value="3"> 3
+                <input type="radio" name="intrapersonal2" value="4"> 4
+                <input type="radio" name="intrapersonal2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Sueles establecer metas personales y hacer planes para alcanzarlas?</p>
+                <input type="radio" name="intrapersonal3" value="1"> 1
+                <input type="radio" name="intrapersonal3" value="2"> 2
+                <input type="radio" name="intrapersonal3" value="3"> 3
+                <input type="radio" name="intrapersonal3" value="4"> 4
+                <input type="radio" name="intrapersonal3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Prefieres actividades que te permitan estar solo/a para reflexionar o meditar?</p>
+                <input type="radio" name="intrapersonal4" value="1"> 1
+                <input type="radio" name="intrapersonal4" value="2"> 2
+                <input type="radio" name="intrapersonal4" value="3"> 3
+                <input type="radio" name="intrapersonal4" value="4"> 4
+                <input type="radio" name="intrapersonal4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Sientes que tienes un buen control de tus emociones y reacciones?</p>
+                <input type="radio" name="intrapersonal5" value="1"> 1
+                <input type="radio" name="intrapersonal5" value="2"> 2
+                <input type="radio" name="intrapersonal5" value="3"> 3
+                <input type="radio" name="intrapersonal5" value="4"> 4
+                <input type="radio" name="intrapersonal5" value="5"> 5
+            </div>
+
+            <!-- Inteligencia Naturalista -->
+            <h2>Inteligencia Naturalista</h2>
+            <div class="question">
+                <p>1. ¿Te interesa observar plantas, animales y otros elementos de la naturaleza?</p>
+                <input type="radio" name="naturalista1" value="1"> 1
+                <input type="radio" name="naturalista1" value="2"> 2
+                <input type="radio" name="naturalista1" value="3"> 3
+                <input type="radio" name="naturalista1" value="4"> 4
+                <input type="radio" name="naturalista1" value="5"> 5
+            </div>
+            <div class="question">
+                <p>2. ¿Disfrutas actividades al aire libre como el senderismo, la jardinería o el campamento?</p>
+                <input type="radio" name="naturalista2" value="1"> 1
+                <input type="radio" name="naturalista2" value="2"> 2
+                <input type="radio" name="naturalista2" value="3"> 3
+                <input type="radio" name="naturalista2" value="4"> 4
+                <input type="radio" name="naturalista2" value="5"> 5
+            </div>
+            <div class="question">
+                <p>3. ¿Te resulta fácil identificar diferentes especies de plantas o animales?</p>
+                <input type="radio" name="naturalista3" value="1"> 1
+                <input type="radio" name="naturalista3" value="2"> 2
+                <input type="radio" name="naturalista3" value="3"> 3
+                <input type="radio" name="naturalista3" value="4"> 4
+                <input type="radio" name="naturalista3" value="5"> 5
+            </div>
+            <div class="question">
+                <p>4. ¿Te preocupa el medio ambiente y la preservación de la naturaleza?</p>
+                <input type="radio" name="naturalista4" value="1"> 1
+                <input type="radio" name="naturalista4" value="2"> 2
+                <input type="radio" name="naturalista4" value="3"> 3
+                <input type="radio" name="naturalista4" value="4"> 4
+                <input type="radio" name="naturalista4" value="5"> 5
+            </div>
+            <div class="question">
+                <p>5. ¿Sientes una conexión especial con la naturaleza y los seres vivos?</p>
+                <input type="radio" name="naturalista5" value="1"> 1
+                <input type="radio" name="naturalista5" value="2"> 2
+                <input type="radio" name="naturalista5" value="3"> 3
+                <input type="radio" name="naturalista5" value="4"> 4
+                <input type="radio" name="naturalista5" value="5"> 5
+            </div>
+
+            <!-- Botón para enviar respuestas -->
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+
+        <div id="resultContainer">
+            <canvas id="resultsChart"></canvas>
+            <div id="intelligenceDescription"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('intelligencesForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Inicializar puntajes
+            const scores = {
+                "Lingüística": 0,
+                "Lógico-Matemática": 0,
+                "Espacial": 0,
+                "Musical": 0,
+                "Corporal-Cinestésica": 0,
+                "Interpersonal": 0,
+                "Intrapersonal": 0,
+                "Naturalista": 0
+            };
+
+            // Calcular puntajes
+            for (let i = 1; i <= 5; i++) {
+                scores["Lingüística"] += parseInt(document.querySelector(`input[name="linguistica${i}"]:checked`)?.value || 0);
+                scores["Lógico-Matemática"] += parseInt(document.querySelector(`input[name="logica${i}"]:checked`)?.value || 0);
+                scores["Espacial"] += parseInt(document.querySelector(`input[name="espacial${i}"]:checked`)?.value || 0);
+                scores["Musical"] += parseInt(document.querySelector(`input[name="musical${i}"]:checked`)?.value || 0);
+                scores["Corporal-Cinestésica"] += parseInt(document.querySelector(`input[name="corporal${i}"]:checked`)?.value || 0);
+                scores["Interpersonal"] += parseInt(document.querySelector(`input[name="interpersonal${i}"]:checked`)?.value || 0);
+                scores["Intrapersonal"] += parseInt(document.querySelector(`input[name="intrapersonal${i}"]:checked`)?.value || 0);
+                scores["Naturalista"] += parseInt(document.querySelector(`input[name="naturalista${i}"]:checked`)?.value || 0);
+            }
+
+            // Identificar inteligencia predominante
+            const dominantIntelligence = Object.keys(scores).reduce((a, b) => scores[a] > scores[b] ? a : b);
+            const intelligenceDescriptions = {
+                "Lingüística": "Eres excelente comunicando tus ideas y disfrutando de la lectura y la escritura.",
+                "Lógico-Matemática": "Te destacan habilidades en el razonamiento lógico y en resolver problemas numéricos.",
+                "Espacial": "Tienes facilidad para visualizar y crear en el espacio, ya sea a través del arte o la navegación.",
+                "Musical": "Tienes un buen sentido del ritmo y disfrutas de la música en varias formas.",
+                "Corporal-Cinestésica": "Eres hábil en el uso de tu cuerpo y disfrutas actividades físicas y manualidades.",
+                "Interpersonal": "Tienes facilidad para entender y relacionarte con los demás.",
+                "Intrapersonal": "Tienes buena autoconciencia y reflexionas sobre tus emociones y metas.",
+                "Naturalista": "Tienes una conexión especial con la naturaleza y disfrutas aprender sobre el medio ambiente."
+            };
+
+            // Mostrar gráfico y resultado
+            document.getElementById('resultContainer').style.display = 'block';
+            const ctx = document.getElementById('resultsChart').getContext('2d');
+            const chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(scores),
+                    datasets: [{
+                        label: 'Puntuación',
+                        data: Object.values(scores),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 25 // Max score possible
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('intelligenceDescription').innerText = `
+                Tu inteligencia predominante es: ${dominantIntelligence}. 
+                ${intelligenceDescriptions[dominantIntelligence]}
+            `;
+        });
+    </script>
+</body>
+</html>
+
